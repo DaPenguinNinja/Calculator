@@ -1,0 +1,15 @@
+#Function for Exponent
+
+def raise_to_power(base,power):
+    result = base**power
+    print(result)
+
+raise_to_power(2,3)
+
+def power_e(base,power):
+    result = 1 
+    for index in range(power):
+        result=result*base
+    print(result)
+        
+power_e(2,5)
