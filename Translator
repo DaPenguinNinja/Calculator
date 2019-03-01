@@ -1,0 +1,23 @@
+#Giraffe Translator 
+
+#vowels->g
+#dog->dgg 
+#cat->cgg
+
+word=input("What word or phrase do you want to translate: ")
+print(word)
+
+vowels=['a','e','i','o','u','A','E','I','O','U']
+
+what=""
+for letter in word:
+    if letter.lower() in vowels:
+        if letter.isupper():
+            what= what + "G"
+        else:
+            what=what+"g"
+    else:
+        what= what + letter
+   
+    
+print(what)
