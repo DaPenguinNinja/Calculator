@@ -1,0 +1,22 @@
+#Dictionary
+
+monthConversions = {
+    "Jan": "January",
+    "Feb": "February",
+    "Mar": "March",
+    "Apr": "April",
+    "May": "May",
+    "Jun": "June",
+    "Jul": "July",
+    5: "August",
+    "Sep": "September",
+    "Oct": "October",
+    "Nov": "November",
+    "Dec": "December",
+}
+
+print(monthConversions["Nov"])
+print(monthConversions["Jul"])
+print(monthConversions.get("Dec"))
+print(monthConversions.get("Luv", "Not A valid key"))
+print(monthConversions.get(5))
